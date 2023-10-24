@@ -174,12 +174,10 @@ a:hover{
   
   }
  #mobile{
-  position: absolute;
-  display: block;
+  position: relative;
   color: white;
-  top: 12%;
-  right: 2%;
-  transform: scale(1);
+  transform: scale(1.2);
+  left: -80px;
  }
  #logo{
   display: none;
