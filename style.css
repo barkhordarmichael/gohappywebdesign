@@ -177,9 +177,12 @@ a:hover{
   position: absolute;
   display: block;
   color: white;
-  top: 250px;
+  top: 12%;
+  right: 2%;
   transform: scale(1);
  }
- 
+ #logo{
+  display: none;
+ }
 }
 
