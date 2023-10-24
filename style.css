@@ -85,6 +85,7 @@ img{
 
 }
 #logo{
+  display: none;
   max-width: 100px;
   min-width: 100px;
   animation: logo-anim 4s;
@@ -95,6 +96,7 @@ a:hover{
 
 }
 #mobile{
+  display: none;
   position: absolute;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   transform: scale(2.5);
@@ -166,7 +168,7 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 
   
   #header{
@@ -174,6 +176,7 @@ a:hover{
   
   }
  #mobile{
+  display: block;
   position: relative;
   color: white;
   transform: scale(1.2);
